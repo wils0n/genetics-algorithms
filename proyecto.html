@@ -2,92 +2,54 @@
 <!-- saved from url=(0044)http://fiddle.jshell.net/bkanber/YAQzr/show/ -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
-  <title>PROYECTO</title>
+<title>PROYECTO</title>
+
+<script async="" src="./static/replace.js"></script>
+<script async="" src="./static/nowait.js"></script>
+<script type="text/javascript" src="./static/dummy.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="./static/normalize.css">
+
+
+<link rel="stylesheet" type="text/css" href="./static/result-light.css">
+
+<style type="text/css">
+    body {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size:14px;
+    }
+    table, div, input {
+        width: 200px;
+        margin:10px auto;
+    }
+</style>
   
-  <script async="" src="./static/replace.js"></script>
-  <script async="" src="./static/nowait.js"></script>
-  <script type="text/javascript" src="./static/dummy.js"></script>
 
-  
-  <link rel="stylesheet" type="text/css" href="./static/normalize.css">
-  
-  
-  <link rel="stylesheet" type="text/css" href="./static/result-light.css">
-  
-  <style type="text/css">
-            body {
-            font-family:Helvetica, Arial, sans-serif;
-            font-size:14px;
-        }
-        table, div, input {
-            width: 200px;
-            margin:10px auto;
-        }
-  </style>
-  
+<script type="text/javascript" src="./static/algorithm.js"></script>
 
-  <script type="text/javascript" src="./static/algorithm.js"></script>
-
-
-
-<style type="text/css">#TnITTtw-tooltip-wrap {
-  position: absolute;
-  z-index: 9999;
-  font-family: Tahoma !important;
-  font-size: 13px !important;
-  line-height: normal !important
-}
-
-  .TnITTtw-inside-layout {
-
-  }
-
-    .TnITTtw-content {
-      
-    }</style><style type="text/css">.help-tt-wrap {
-  background: rgba(0, 0, 0, 0.575);
-  color: #FFF;
-  padding: 10px;
-  border-radius: 3px;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.775)
-}
-
-  .text-layout {
-
-  }
-
-    .text-container {
-
-    }</style><style type="text/css">#TnITTtw-tooltip-wrap {
-  position: absolute;
-  z-index: 9999;
-  font-family: Tahoma !important;
-  font-size: 13px !important;
-  line-height: normal !important
-}
-
-  .TnITTtw-inside-layout {
-
-  }
-
-    .TnITTtw-content {
-      
-    }</style><style type="text/css"></style><style type="text/css"></style></head>
+</head>
 <body>
           <table>
-            <tbody><tr>
-                <td><strong>Generation</strong></td>
-                <td id="gen_no"></td>
-            </tr><tr>
-                <td><strong>Best Value</strong></td>
-                <td id="value"></td>
-            </tr><tr>
-                <td><strong>Weight</strong></td>
-                <td id="weight"></td>
-            </tr><tr>
-                <td><strong>No change in</strong></td>
-                <td id="nochange"></td>
-        </tr></tbody></table>
+              <tbody>
+                <tr>
+                    <td><strong>Generación</strong></td>
+                    <td id="gen_no"></td>
+                </tr>
+                <tr>
+                    <td><strong>Mejor Valor</strong></td>
+                    <td id="value"></td>
+                </tr>
+                <tr>
+                    <td><strong>Weight</strong></td>
+                    <td id="weight"></td>
+                </tr>
+                <tr>
+                    <td><strong>No change in</strong></td>
+                    <td id="nochange"></td>
+                </tr>
+              </tbody>
+            </table>
         <div>
             <input type="range" min="1" max="1000" value="100" id="runfor" onchange="document.getElementById(&#39;runforspan&#39;).innerHTML=this.value;">
             <br>
